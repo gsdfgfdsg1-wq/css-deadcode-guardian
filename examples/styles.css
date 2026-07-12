@@ -1,0 +1,5 @@
+/* Example stylesheet */
+.app { color: #172033; }
+.panel { padding: 16px; padding: 20px !important; }
+.legacy-banner { display: none; }
+#root .app .panel .title { font-weight: 700; }
