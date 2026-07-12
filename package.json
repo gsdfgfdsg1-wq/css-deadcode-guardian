@@ -1,0 +1,11 @@
+{
+  "name": "css-deadcode-guardian",
+  "version": "0.1.0",
+  "description": "Find unused CSS selectors, duplicate declarations, and cascade risks from source files.",
+  "type": "module",
+  "bin": { "css-deadcode-guardian": "./src/cli.js" },
+  "scripts": { "test": "node --test", "scan": "node src/cli.js" },
+  "keywords": ["css", "dead-code", "stylelint", "frontend", "ci"],
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}
